@@ -53,7 +53,7 @@ Future Enhancements
 =====================
 1)In future we are planning for developing mobile based application. 
 
-2)Then we are planning to add gamification features where on placing proper complaint users will be awarded badges. This will encourage them to make more proper complaints.
+2)Then we are planning to add gamification features where on placing proper complaint users will be awarded badges. This will encourage them to make more proper complaints.For that we created the sample image that is present in the  CMA1/WEBCONTENT/ 
 
 Presentation at Google Drive
 =============================
