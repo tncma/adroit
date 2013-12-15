@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+#bods
+{
+height:600px;
+
+/* IE10 Consumer Preview */ 
+  
+background-image: -ms-linear-gradient(top left, #FA8258 0%, #FFAA88 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top left, #FA8258 0%, #FFAA88 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top left, #FA8258 0%, #FFAA88 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #FA8258), color-stop(1, #FFAA88));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top left, #FA8258 0%, #FFAA88 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: linear-gradient(to bottom right, #FA8258 0%, #FFAA88 100%);}
+
+body
+{
+	
+    width: 60%;
+	height:600px;
+    border: 1px solid black;
+  
+	margin-left:20%;
+	font-family:"Segoe UI";
+		
+	}
+	#mainbody
+	{
+border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 5px solid #bd7b40;
+		}
+#buts{
+position:fixed;
+    bottom: 15%;
+width:60%;
+}
+.button_example{
+border:1px solid #ffad41; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;font-size:12px;font-family:arial, helvetica, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
+background-color: #ffc579; background-image: -webkit-gradient(linear, left top, left bottom, from(#ffc579), to(#fb9d23));
+background-image: -webkit-linear-gradient(top, #ffc579, #fb9d23);
+background-image: -moz-linear-gradient(top, #ffc579, #fb9d23);
+background-image: -ms-linear-gradient(top, #ffc579, #fb9d23);
+background-image: -o-linear-gradient(top, #ffc579, #fb9d23);
+background-image: linear-gradient(to bottom, #ffc579, #fb9d23);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffc579, endColorstr=#fb9d23);
+width:15%;
+text-color:#000000;
+}
+
+.button_example:hover{
+border:1px solid #ff9913;
+background-color: #ffaf46; background-image: -webkit-gradient(linear, left top, left bottom, from(#ffaf46), to(#e78404));
+background-image: -webkit-linear-gradient(top, #ffaf46, #e78404);
+background-image: -moz-linear-gradient(top, #ffaf46, #e78404);
+background-image: -ms-linear-gradient(top, #ffaf46, #e78404);
+background-image: -o-linear-gradient(top, #ffaf46, #e78404);
+background-image: linear-gradient(to bottom, #ffaf46, #e78404);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffaf46, endColorstr=#e78404);
+}
+
+img
+{
+width:100%;
+height:200px;
+align:center;
+}
