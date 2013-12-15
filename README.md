@@ -26,3 +26,11 @@ What actually people can perform in our website
 Future Enhancements
 
 In future we are planning for developing mobile based application. Then we are planning to add gamification features where on placing proper complaint users will be awarded badges. This will encourage them to make more proper complaints.
+
+Note:
+=================================================================
+We have used following tools/technologies to develop this project
+
+Database DB2
+Front end HTML,CSS,jQuery, AJAX, JSP, Javscript
+Server Web Server Community Edition(WASCE)
