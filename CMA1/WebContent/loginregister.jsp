@@ -46,7 +46,7 @@ String myquery="INSERT INTO VAIDHYANATHAN.USETABLE (USERID, PASSWORD, NAME) VALU
 PreparedStatement pre=conn.prepareStatement(myquery);
 pre.setString(1, s1);
 pre.setString(2, s2);
-pre.setInt(3, s3);
+pre.setString(3, s3);
 pre.executeUpdate();
 
 conn.close();

@@ -42,7 +42,7 @@ pre.setString(9, "REGISTERED");
 pre.setString(10, si);
 pre.executeUpdate();
 conn.close();
-String url=response.encodeRedirectURL("complaintregform.jsp");
+String url=response.encodeRedirectURL("complaintview.jsp");
 response.sendRedirect(url);
 
 %>

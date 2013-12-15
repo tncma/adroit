@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>Complaint Registration</title>
+<link rel="stylesheet" type="text/css" href="main.css"  />
+<script type="text/javascript">
+function getdate()
+{
+var d = new Date();
+var date = d.getDate();
+var mon =d.getMonth() +1;
+var year = d.getFullYear();
+var x = document.getElementById("date");
+x.innerHTML=date+"/"+mon+"/"+year;
+}
+</script>
+<style type="text/css">
+.bad
+{
+width:100px;
+height:100px;
+}
+</style>
+</head>
+
+<body id="mainbody" onload="getdate()">
+<div id="bods">
+
+<img src="cma.jpg"/>
+
+
+ 
+<div style="float:right;">Date  <b  id="date"></b></div> <br />
+
+<h1>Welcome <div id="name"></div></h1>
+<hr>
+
+<h3> Complaints Made... </h3>
+<div id="complaint"></div>
+<hr>
+
+<h3> Badges Won..</h3>
+<div id="badge"></div>
+<hr>
+<img class="bad" src="1 light.jpg"/> 
+<img class="bad" src="1 road.jpg"/>
+<img class="bad" src="1 water.jpg"/>
+<img class="bad" src="25 light.jpg"/> 
+<img class="bad" src="25 road.jpg"/>
+<img class="bad" src="25 water.jpg"/>
+ 
+</div>
+</body>
+</html>
