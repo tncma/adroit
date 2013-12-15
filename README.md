@@ -55,6 +55,9 @@ Future Enhancements
 
 2)Then we are planning to add gamification features where on placing proper complaint users will be awarded badges. This will encourage them to make more proper complaints.For that we created the sample image that is present in the  CMA1/WEBCONTENT/ 
 
+3) We plan to act Image based Complaint registration by future.
+
+
 Presentation at Google Drive
 =============================
 https://docs.google.com/presentation/d/1YgaYpp0Hq9xtw-rWmMwc6RwJHHG9FwHxZeBlIi6LWD8/edit?usp=sharing
